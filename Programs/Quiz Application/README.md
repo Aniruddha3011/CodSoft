@@ -1,9 +1,9 @@
-This Quiz Application is a Java Swing-based GUI program designed to simulate an interactive quiz game. Below is the detailed description of the application in a structured manner:
+ # This Quiz Application is a Java Swing-based GUI program designed to simulate an interactive quiz game. Below is the detailed description of the application in a structured manner:
 
 
 ---
 
-Project Overview
+ # Project Overview
 
 This project consists of four main components:
 
@@ -23,7 +23,7 @@ This project consists of four main components:
 
 ---
 
-Features
+# Features
 
 Fully interactive GUI using Java Swing.
 
@@ -39,64 +39,64 @@ Real-time feedback on score and user input.
 
 ---
 
-Code Descriptions
+ # Code Descriptions
 
 1. Login Page (Login.java):
 
-  Users input their name to begin the quiz.
+Users input their name to begin the quiz.
   
-  Buttons:
+Buttons:
   
-  Rules: Navigates to the rules section.
+Rules: Navigates to the rules section.
   
-  Back: Closes the application.
+Back: Closes the application.
   
   
-  Background image and customized fonts are used for a visually appealing design.
+Background image and customized fonts are used for a visually appealing design.
 
 
 
 2. Rules Page (Rules.java):
 
-  Displays the rules for the quiz in a styled, readable format using JLabel.
+Displays the rules for the quiz in a styled, readable format using JLabel.
   
-  Buttons:
+Buttons:
   
-  Start: Proceeds to the quiz.
+start: Proceeds to the quiz.
   
-  Back: Returns to the login page.
+Back: Returns to the login page.
 
 
 
 
 3. Quiz Page (Quiz.java):
 
-  Displays 10 multiple-choice questions.
+Displays 10 multiple-choice questions.
   
-  Features include:
+Features include:
   
-  Timer: Users have 15 seconds per question.
+Timer: Users have 15 seconds per question.
   
-  Next Button: Moves to the next question.
+Next Button: Moves to the next question.
   
-  50-50 Lifeline: Removes two incorrect options.
+50-50 Lifeline: Removes two incorrect options.
   
-  Submit Button: Finalizes the answers and calculates the score.
+Submit Button: Finalizes the answers and calculates the score.
   
   
-  Score is calculated based on correct answers.
+Score is calculated based on correct answers.
 
 
 
 4. Score Page (Score.java):
 
-  Displays the final score with a thank-you message.
+Displays the final score with a thank-you message.
   
-  Buttons:
+Buttons:
   
-  Play Again: Restarts the quiz from the login page.
+Play Again: Restarts the quiz from the login page.
   
-  Exit: Closes the application.
+Exit: Closes the application.
 
 
 
@@ -105,28 +105,28 @@ Code Descriptions
 
 ---
 
-Workflow
+# Workflow
 
 The application follows this flow:
 
-  1. User starts at the Login Page and enters their name.
+1. User starts at the Login Page and enters their name.
   
   
-  2. They proceed to the Rules Page to read the instructions.
+2. They proceed to the Rules Page to read the instructions.
   
   
-  3. After reading the rules, they begin the quiz on the Quiz Page:
+3. After reading the rules, they begin the quiz on the Quiz Page:
   
-  Answer questions within a 15-second timer.
+Answer questions within a 15-second timer.
   
-  Use a lifeline if needed.
-  
-  
-  
-  4. After completing all questions or submitting early, the Score Page displays the results.
+Use a lifeline if needed.
   
   
-  5. Users can either replay the quiz or exit the application.
+  
+4. After completing all questions or submitting early, the Score Page displays the results.
+  
+  
+5. Users can either replay the quiz or exit the application.
 
 
 
@@ -135,6 +135,7 @@ The application follows this flow:
 
 Below is a flowchart representing the workflow of the Quiz Application:
 
+# Flow Chart
 
 +------------------+
 |   Login Page     |
@@ -163,10 +164,10 @@ Below is a flowchart representing the workflow of the Quiz Application:
 
 
 
-Future Improvements
+# Future Improvements
 
-  Add a database to save user scores for analysis.
+Add a database to save user scores for analysis.
   
-  Implement dynamic question fetching from an external source (e.g., a JSON file).
+Implement dynamic question fetching from an external source (e.g., a JSON file).
   
-  Create a more advanced lifeline system
+Create a more advanced lifeline system
