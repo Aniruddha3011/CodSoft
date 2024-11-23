@@ -40,19 +40,13 @@ Real-time feedback on score and user input.
 ---
 
  # Code Descriptions
-
-1. Login Page (Login.java):
-
-Users input their name to begin the quiz.
+ 1. Login Page (Login.java):
+ Users input their name to begin the quiz.
   
-Buttons:
-  
-Rules: Navigates to the rules section.
-  
-Back: Closes the application.
-  
-  
-Background image and customized fonts are used for a visually appealing design.
+  Buttons:
+   Rules: Navigates to the rules section.
+   Back: Closes the application.
+   Background image and customized fonts are used for a visually appealing design.
 
 
 
@@ -61,10 +55,8 @@ Background image and customized fonts are used for a visually appealing design.
 Displays the rules for the quiz in a styled, readable format using JLabel.
   
 Buttons:
-  
-start: Proceeds to the quiz.
-  
-Back: Returns to the login page.
+  start: Proceeds to the quiz.
+  Back: Returns to the login page.
 
 
 
@@ -93,10 +85,8 @@ Score is calculated based on correct answers.
 Displays the final score with a thank-you message.
   
 Buttons:
-  
-Play Again: Restarts the quiz from the login page.
-  
-Exit: Closes the application.
+  Play Again: Restarts the quiz from the login page.
+  Exit: Closes the application.
 
 
 
