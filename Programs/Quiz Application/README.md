@@ -41,52 +41,52 @@ Real-time feedback on score and user input.
 
  # Code Descriptions
  1. Login Page (Login.java):
- Users input their name to begin the quiz.
-  
-  Buttons:
-   Rules: Navigates to the rules section.
-   Back: Closes the application.
-   Background image and customized fonts are used for a visually appealing design.
+    Users input their name to begin the quiz.
+     
+     Buttons:
+      Rules: Navigates to the rules section.
+      Back: Closes the application.
+      Background image and customized fonts are used for a visually appealing design.
 
 
 
 2. Rules Page (Rules.java):
 
-Displays the rules for the quiz in a styled, readable format using JLabel.
-  
-Buttons:
-  start: Proceeds to the quiz.
-  Back: Returns to the login page.
+    Displays the rules for the quiz in a styled, readable format using JLabel.
+      
+    Buttons:
+      start: Proceeds to the quiz.
+      Back: Returns to the login page.
 
 
 
 
 3. Quiz Page (Quiz.java):
 
-Displays 10 multiple-choice questions.
-  
-Features include:
-  
-Timer: Users have 15 seconds per question.
-  
-Next Button: Moves to the next question.
-  
-50-50 Lifeline: Removes two incorrect options.
-  
-Submit Button: Finalizes the answers and calculates the score.
-  
-  
-Score is calculated based on correct answers.
+    Displays 10 multiple-choice questions.
+      
+    Features include:
+      
+    Timer: Users have 15 seconds per question.
+      
+    Next Button: Moves to the next question.
+      
+    50-50 Lifeline: Removes two incorrect options.
+      
+    Submit Button: Finalizes the answers and calculates the score.
+      
+      
+    Score is calculated based on correct answers.
 
 
 
 4. Score Page (Score.java):
 
-Displays the final score with a thank-you message.
-  
-Buttons:
-  Play Again: Restarts the quiz from the login page.
-  Exit: Closes the application.
+    Displays the final score with a thank-you message.
+      
+    Buttons:
+      Play Again: Restarts the quiz from the login page.
+      Exit: Closes the application.
 
 
 
