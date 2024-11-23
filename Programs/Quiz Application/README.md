@@ -134,6 +134,8 @@ The application follows this flow:
 ---
 
 Below is a flowchart representing the workflow of the Quiz Application:
+
+
 +------------------+
 |   Login Page     |
 | (Enter Name)     |
@@ -158,6 +160,8 @@ Below is a flowchart representing the workflow of the Quiz Application:
 | (View Results)   |
 | Play Again/Exit  |
 +------------------+
+
+
 
 Future Improvements
 
